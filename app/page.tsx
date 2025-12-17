@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import Image from "next/image"
 
 export default function HomePage() {
   const services = [
@@ -80,7 +81,15 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="hidden lg:block">
-                <div className="aspect-[4/3] bg-gray-300 rounded-2xl" />
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
+                  <Image
+                    src="/hero.jpeg"
+                    alt="PT Wasaka Cipta Energindo"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -91,7 +100,15 @@ export default function HomePage() {
           <div className="container mx-auto max-w-7xl px-6 lg:px-8 py-16 lg:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
               <div className="order-2 lg:order-1">
-                <div className="aspect-[4/3] bg-gray-300 rounded-2xl" />
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
+                  <Image
+                    src="/about.jpeg"
+                    alt="PT Wasaka Cipta Energindo"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4 text-balance">

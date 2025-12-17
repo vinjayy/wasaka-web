@@ -3,12 +3,14 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function LayananPage() {
   const services = [
     {
       icon: Fuel,
       title: "Transportir BBM",
+      image: "/transportir.jpeg",
       description:
         "Layanan pengangkutan BBM menggunakan armada yang terawat serta mengikuti standar keselamatan dan regulasi yang berlaku.",
       features: [
@@ -22,6 +24,8 @@ export default function LayananPage() {
     {
       icon: Factory,
       title: "Penjualan BBM Solar Industri",
+      image: "/bbm2.jpeg",
+      imagePosition: "object-bottom",
       description:
         "Penyediaan BBM solar industri untuk kebutuhan pabrik, proyek, dan perusahaan dengan pasokan yang stabil dan berkualitas.",
       features: [
@@ -35,6 +39,7 @@ export default function LayananPage() {
     {
       icon: Truck,
       title: "Coal Mining Hauling",
+      image: "/hauling.jpeg",
       description:
         "Layanan hauling batubara dari area tambang ke titik tujuan dengan pengelolaan operasional yang efisien dan aman.",
       features: [
@@ -69,13 +74,21 @@ export default function LayananPage() {
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col ${
-                    index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-                  } gap-8 lg:gap-12 items-center`}
+                  className={`flex flex-col ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+                    } gap-8 lg:gap-12 items-center`}
                 >
                   {/* Icon Side */}
                   <div className="w-full lg:w-2/5">
-                    <div className="aspect-[4/3] bg-gray-300 rounded-2xl" />
+                    <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
+                      <Image
+                        src={service.image}
+                        alt={service.title}
+                        fill
+                        className="object-cover"
+                        priority={index === 0}
+                      />
+
+                    </div>
                   </div>
 
                   {/* Content Side */}
