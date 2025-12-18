@@ -33,7 +33,7 @@ export default function LayananPage() {
         "Sistem pembayaran fleksibel",
         "Layanan konsultasi kebutuhan BBM",
       ],
-      image: "/images/service-penjualan-bbm.jpg",
+      image: "/tank-bbm.jpeg",
     },
     {
       icon: Truck,
