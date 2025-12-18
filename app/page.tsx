@@ -1,10 +1,10 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Fuel, Factory, Truck, Shield, Clock, Award } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import Image from "next/image"
 
 export default function HomePage() {
   const services = [
@@ -54,8 +54,17 @@ export default function HomePage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full bg-gradient-to-br from-[#00456e] via-[#003152] to-[#018b00] text-white">
-          <div className="container mx-auto max-w-7xl px-6 lg:px-8 py-20 lg:py-32">
+        <section className="w-full text-white relative overflow-hidden">
+          {/* Background Image - Replace src with your image */}
+          <div className="absolute inset-0">
+            <Image src="/tentang.jpg" alt="Hero background" fill className="object-cover" priority />
+          </div>
+          {/* Gradient overlay on top of image */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#00456e]/90 via-[#003152]/85 to-[#018b00]/80"></div>
+          {/* Pattern overlay */}
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.05%22%3E%3Cpath%20d%3D%22M36%2034v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6%2034v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6%204V0H4v4H0v2h4v4h2V6h4V4H6z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E')] opacity-30"></div>
+
+          <div className="container mx-auto max-w-7xl px-6 lg:px-8 py-20 lg:py-32 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6">
@@ -81,14 +90,8 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="hidden lg:block">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
-                  <Image
-                    src="/hero.jpeg"
-                    alt="PT Wasaka Cipta Energindo"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden">
+                  <Image src="/hero.jpeg" alt="PT. Wasaka Cipta Energindo" fill className="object-cover" />
                 </div>
               </div>
             </div>
@@ -100,13 +103,12 @@ export default function HomePage() {
           <div className="container mx-auto max-w-7xl px-6 lg:px-8 py-16 lg:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
               <div className="order-2 lg:order-1">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden">
                   <Image
                     src="/about.jpeg"
-                    alt="PT Wasaka Cipta Energindo"
+                    alt="Tentang PT. Wasaka Cipta Energindo"
                     fill
                     className="object-cover"
-                    priority
                   />
                 </div>
               </div>
