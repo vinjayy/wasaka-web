@@ -124,9 +124,9 @@ export default function LayananPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Truck Tanki */}
-              <div className="bg-slate-50 rounded-2xl p-6 lg:p-8 border-2 border-transparent hover:border-[#018b00] transition-all duration-300">
+              <div className="bg-[#E6E6E6] rounded-2xl p-6 lg:p-8 border-2 border-transparent hover:border-[#018b00] transition-all duration-300">
                 <div className="aspect-[4/3] relative rounded-xl overflow-hidden mb-6">
-                  <Image src="/armada-bbm.jpeg" alt="Truck Tanki" fill className="object-cover" />
+                  <Image src="/armada2.png" alt="Truck Tanki" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-[#00456e] rounded-lg flex items-center justify-center">
@@ -160,9 +160,9 @@ export default function LayananPage() {
               </div>
 
               {/* SPOB */}
-              <div className="bg-slate-50 rounded-2xl p-6 lg:p-8 border-2 border-transparent hover:border-[#018b00] transition-all duration-300">
+              <div className="bg-[#E6E6E6] rounded-2xl p-6 lg:p-8 border-2 border-transparent hover:border-[#018b00] transition-all duration-300">
                 <div className="aspect-[4/3] relative rounded-xl overflow-hidden mb-6">
-                  <Image src="/spob.jpeg" alt="SPOB" fill className="object-cover" />
+                  <Image src="/spob2.png" alt="SPOB" fill className="object-cover" />
                 </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-[#018b00] rounded-lg flex items-center justify-center">
@@ -205,7 +205,7 @@ export default function LayananPage() {
               </div>
 
               {/* Armada Truck Hauling */}
-              <div className="bg-slate-50 rounded-2xl p-6 lg:p-8 border-2 border-transparent hover:border-[#018b00] transition-all duration-300">
+              <div className="bg-[#E6E6E6] rounded-2xl p-6 lg:p-8 border-2 border-transparent hover:border-[#018b00] transition-all duration-300">
                 <div className="aspect-[4/3] relative rounded-xl overflow-hidden mb-6">
                   <Image
                     src="/truck.jpeg"

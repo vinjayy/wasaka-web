@@ -46,11 +46,11 @@ export default function KontakPage() {
         </section>
 
         {/* Contact Info Cards */}
-        <section className="w-full bg-white">
+        <section className="w-full bg-whie">
           <div className="container mx-auto max-w-7xl px-6 lg:px-8 py-16 lg:py-24">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-16">
               {contactInfo.map((info, index) => (
-                <Card key={index} className="border-2 hover:border-[#018b00] transition-all duration-300">
+                <Card key={index} className="bg-[#F0F0F0] border-2 hover:border-[#018b00] transition-all duration-300">
                   <CardContent className="p-6 lg:p-8 text-center">
                     <div className="flex items-center justify-center w-14 h-14 bg-[#018b00]/10 rounded-full mx-auto mb-4">
                       <info.icon className="h-7 w-7 text-[#018b00]" />
@@ -80,7 +80,7 @@ export default function KontakPage() {
             <div className="mb-16">
               <div className="aspect-[21/9] relative rounded-2xl overflow-hidden">
                 <Image
-                  src="/kontak.jpg"
+                  src="/edit web1.jpg"
                   alt="Kantor PT. Wasaka Cipta Energindo"
                   fill
                   className="object-cover"

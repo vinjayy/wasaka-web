@@ -57,7 +57,7 @@ export default function HomePage() {
         <section className="w-full text-white relative overflow-hidden">
           {/* Background Image - Replace src with your image */}
           <div className="absolute inset-0">
-            <Image src="/tentang.jpg" alt="Hero background" fill className="object-cover" priority />
+            <Image src="/edit web1.jpg" alt="Hero background" fill className="object-cover" priority />
           </div>
           {/* Gradient overlay on top of image */}
           <div className="absolute inset-0 bg-gradient-to-br from-[#00456e]/90 via-[#003152]/85 to-[#018b00]/80"></div>
