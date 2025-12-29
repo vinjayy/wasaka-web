@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { MapPin, Phone } from "lucide-react"
 
 export function Footer() {
@@ -6,20 +7,32 @@ export function Footer() {
     <footer className="w-full bg-slate-900 text-white">
       <div className="container mx-auto max-w-7xl px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-10 h-10 bg-blue-600 rounded-lg">
-                <span className="text-white font-bold text-xl">W</span>
+            <div className="flex items-center gap-3">
+              <div className="relative w-14 h-14">
+                <Image
+                  src="/logowasaka.jpeg"
+                  alt="Logo PT. Wasaka Cipta Energindo"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <div>
-                <div className="text-sm font-bold leading-tight">PT. Wasaka</div>
-                <div className="text-xs text-gray-400">Cipta Energindo</div>
+                <div className="text-sm font-bold leading-tight">
+                  PT. Wasaka
+                </div>
+                <div className="text-xs text-gray-400">
+                  Cipta Energindo
+                </div>
               </div>
             </div>
+
             <p className="text-sm text-gray-300 leading-relaxed">
-              Perusahaan yang bergerak di bidang transportasi BBM, penjualan solar industri, dan hauling pertambangan
-              dengan mengutamakan keselamatan dan profesionalisme.
+              Hadir membersamai/melengkapi kebutuhan pelayanan transportasi
+              disektor industri (Transportir BBM & Coal Mining Hauling) yang
+              mengutamakan keselamatan dan profesionalisme serta terukur.
             </p>
           </div>
 
@@ -36,9 +49,13 @@ export function Footer() {
                   <p>Kalimantan Selatan 70654</p>
                 </div>
               </div>
+
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <a href="tel:05115213014" className="text-sm text-gray-300 hover:text-white transition-colors">
+                <a
+                  href="tel:05115213014"
+                  className="text-sm text-gray-300 hover:text-white transition-colors"
+                >
                   0511-5213014
                 </a>
               </div>

@@ -18,6 +18,7 @@ export default function LayananPage() {
         "Sistem keselamatan sesuai standar industri",
         "Monitoring real-time perjalanan",
         "Asuransi lengkap untuk setiap pengiriman",
+        "Monitoring real-time perjalanan dilengkapi dgn peralatan GPS",
       ],
       image: "/trans-bbm.jpeg",
     },

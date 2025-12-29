@@ -11,17 +11,17 @@ export default function HomePage() {
     {
       icon: Fuel,
       title: "Transportir BBM",
-      description: "Layanan pengangkutan BBM dengan armada terawat dan mengikuti standar keselamatan yang berlaku.",
+      description: "Layanan pengangkutan BBM dengan armada terawat dan mengikuti standar keselamatan yang berlaku. Dan dilengkapi dengat peralatan GPS untuk monitoring perjalanan tepat waktu.",
     },
     {
       icon: Factory,
       title: "Penjualan BBM Solar Industri",
-      description: "Penyediaan BBM solar industri untuk kebutuhan pabrik dan perusahaan dengan pasokan yang stabil.",
+      description: "Penyediaan BBM solar industri untuk kebutuhan pabrik dan perusahaan dengan pasokan yang stabil. Untuk kebutuhan Pertambangan, Marine, Plantatation dan Factory dengan pasokan yg stabil",
     },
     {
       icon: Truck,
       title: "Coal Mining Hauling",
-      description: "Layanan hauling batubara dengan pengelolaan operasional yang efisien dan aman.",
+      description: "Layanan hauling batubara Berfocus pada ketepatan waktu pengiriman, efesiensi operasional serta penerapan standart keselamatan kerja yg tinggi dgn dukungan operator berpengalaman",
     },
   ]
 

@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -19,14 +20,26 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto max-w-7xl px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
+          
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="flex items-center justify-center w-10 h-10 bg-[#00456e] rounded-lg">
-              <span className="text-white font-bold text-xl">W</span>
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative w-16 h-16">
+              <Image
+                src="/logowasaka.jpeg"
+                alt="Logo Wasaka"
+                fill
+                className="object-contain rounded-lg"
+                priority
+              />
             </div>
+
             <div className="hidden sm:block">
-              <div className="text-sm font-bold text-[#00456e] leading-tight">PT. Wasaka</div>
-              <div className="text-xs text-muted-foreground">Cipta Energindo</div>
+              <div className="text-sm font-bold text-[#00456e] leading-tight">
+                PT. Wasaka
+              </div>
+              <div className="text-xs text-muted-foreground">
+                Cipta Energindo
+              </div>
             </div>
           </Link>
 
@@ -44,8 +57,17 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          <Button
+            variant="ghost"
+            size="icon"
+            className="md:hidden"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
           </Button>
         </nav>
 

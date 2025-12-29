@@ -1,26 +1,43 @@
-[00:00:03.220] Server  LOG      ✓ Ready in 2.4s
-[00:00:07.147] Server  LOG      ○ Compiling / ...
-[00:00:10.946] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.235] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.235] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.235] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217033736}
-[00:00:17.300] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/tentang color: rgb(120, 120, 120) color: inherit {"dp":"/tentang","o":"http://localhost:3000/tentang","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217039811}
-[00:00:23.713] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217046225}
-[00:01:34.531] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/kontak color: rgb(120, 120, 120) color: inherit {"dp":"/kontak","o":"http://localhost:3000/kontak","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217117052}
-[00:01:47.962] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217130482}
-[00:01:51.903] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217134427}
-[00:02:07.544] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/tentang color: rgb(120, 120, 120) color: inherit {"dp":"/tentang","o":"http://localhost:3000/tentang","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217150072}
-[00:02:29.261] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217171796}
-[00:02:47.605] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217190144}
-[00:03:48.748] Server  LOG      ✓ Compiled in 303ms
-[00:09:45.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217607660}
-[00:09:47.067] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217609697}
-[00:09:49.766] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/kontak color: rgb(120, 120, 120) color: inherit {"dp":"/kontak","o":"http://localhost:3000/kontak","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766217612394}
-[00:22:37.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:37.330] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:22:37.330] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:22:37.330] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766218380099}
-[00:22:40.094] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766218382856}
-[00:22:47.153] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/kontak color: rgb(120, 120, 120) color: inherit {"dp":"/kontak","o":"http://localhost:3000/kontak","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766218389917}
-[00:26:18.462] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/tentang color: rgb(120, 120, 120) color: inherit {"dp":"/tentang","o":"http://localhost:3000/tentang","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766218601244}
-[00:26:20.042] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766218602829}
+[00:00:03.255] Server  LOG      ✓ Ready in 2.5s
+[00:00:06.299] Server  LOG      ○ Compiling / ...
+[00:00:08.487] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.283] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.283] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.283] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766989787665}
+[00:04:36.121] Server  LOG      ✓ Compiled in 191ms
+[00:05:06.301] Server  LOG      ✓ Compiled in 113ms
+[00:05:08.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:09.168] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:09.168] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:09.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766990087564}
+[00:05:17.749] Server  LOG      ✓ Compiled in 150ms
+[00:05:19.147] Server  LOG      ✓ Compiled in 158ms
+[00:05:26.855] Server  LOG      ✓ Compiled in 111ms
+[00:05:29.816] Server  LOG      ✓ Compiled in 157ms
+[00:05:36.650] Server  LOG      ✓ Compiled in 60ms
+[00:05:38.014] Server  LOG      ✓ Compiled in 113ms
+[00:05:39.986] Server  LOG      ✓ Compiled in 126ms
+[00:05:44.485] Server  LOG      ✓ Compiled in 72ms
+[00:05:46.246] Server  LOG      ✓ Compiled in 75ms
+[00:08:14.804] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766990273206}
+[00:09:28.956] Browser ERROR   ./components/footer.tsx:27:19
+Parsing ecmascript source code failed
+  25 |                 <div className="text-xs text-gray-400">Cipta Energindo</div>
+  26 |               </div>
+> 27 |             </div>
+     |                   ^
+> 28 |             <p className="text-sm text-gray-300 leading-relaxed">
+     | ^^^^^^^^^^^^^
+  29 |               Perusahaan yang bergerak di bidang transportasi BBM, penjualan solar industri, dan hauling pertambangan
+  30 |               dengan mengutamakan keselamatan dan profesionalisme.
+  31 |             </p>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx
+[00:13:42.132] Server  LOG      ✓ Compiled in 49ms
+[00:13:45.221] Server  LOG      ✓ Compiled in 52ms
