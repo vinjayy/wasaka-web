@@ -13,7 +13,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative w-14 h-14">
                 <Image
-                  src="/logowasaka.jpeg"
+                  src="/logowasaka2.jpeg"
                   alt="Logo PT. Wasaka Cipta Energindo"
                   fill
                   className="object-contain"

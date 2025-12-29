@@ -25,7 +25,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3">
             <div className="relative w-16 h-16">
               <Image
-                src="/logowasaka.jpeg"
+                src="/logowasaka2.jpeg"
                 alt="Logo Wasaka"
                 fill
                 className="object-contain rounded-lg"
