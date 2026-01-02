@@ -1,20 +1,22 @@
-[00:00:02.906] Server  LOG      ✓ Ready in 2s
-[00:00:07.575] Server  LOG      ○ Compiling / ...
-[00:00:09.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.061] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.061] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.061] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767323801223}
-[00:01:37.589] Server  LOG      ✓ Compiled in 165ms
-[00:01:48.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:48.316] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:48.317] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:48.317] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767323899474}
-[00:02:15.034] Server  LOG      ✓ Compiled in 96ms
-[00:02:22.265] Server  LOG      ✓ Compiled in 91ms
-[00:03:55.443] Server  LOG      ✓ Compiled in 136ms
-[00:04:17.503] Server  LOG      ✓ Compiled in 70ms
-[00:04:20.287] Server  LOG      ✓ Compiled in 63ms
-[00:04:33.034] Server  LOG      ✓ Compiled in 56ms
-[00:04:34.844] Server  LOG      ✓ Compiled in 50ms
-[00:04:39.365] Server  LOG      ✓ Compiled in 57ms
-[00:04:46.335] Server  LOG      ✓ Compiled in 67ms
+[00:00:02.658] Server  LOG      ✓ Ready in 2.1s
+[00:00:05.681] Server  LOG      ○ Compiling / ...
+[00:00:08.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.045] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.046] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.046] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767326024832}
+[00:00:28.325] Browser ERROR   ./components/footer.tsx:14:85
+Parsing ecmascript source code failed
+  12 |           <div className="space-y-4">
+  13 |             <div className="flex items-center gap-3>
+> 14 |               <div className="relative w-14 h-14 bg-white rounded-md overflow-hidden">
+     |                                                                                     ^^
+  15 |                 <Image
+  16 |                   src="/logowasaka2.jpeg"
+  17 |                   alt="Logo PT. Wasaka Cipta Energindo"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/page.tsx

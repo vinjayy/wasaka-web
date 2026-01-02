@@ -11,7 +11,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="relative w-14 h-14">
+              <div className="relative w-16 h-16 bg-white rounded-md overflow-hidden">
                 <Image
                   src="/logowasaka2.jpeg"
                   alt="Logo PT. Wasaka Cipta Energindo"
