@@ -120,14 +120,14 @@ function Header() {
             className: "container mx-auto max-w-7xl px-6 lg:px-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "flex items-center justify-between h-16 lg:h-20",
+                    className: "flex items-center justify-between h-20 lg:h-24",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
-                            className: "flex items-center gap-3",
+                            className: "flex items-center gap-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-16 h-16",
+                                    className: "relative w-16 h-16 sm:w-20 sm:h-20",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/logowasaka2.jpeg",
                                         alt: "Logo Wasaka",
@@ -136,37 +136,26 @@ function Header() {
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/components/header.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/header.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "hidden sm:block",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-sm font-bold text-[#00456e] leading-tight",
-                                            children: "PT. Wasaka"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/header.tsx",
-                                            lineNumber: 37,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-xs text-muted-foreground",
-                                            children: "Cipta Energindo"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/header.tsx",
-                                            lineNumber: 40,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "text-base sm:text-lg font-bold text-[#00456e] leading-tight",
+                                        children: "PT. Wasaka Cipta Energindo"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/header.tsx",
+                                        lineNumber: 39,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/components/header.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -183,12 +172,12 @@ function Header() {
                                     children: item.name
                                 }, item.name, false, {
                                     fileName: "[project]/components/header.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 48,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 47,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -196,6 +185,7 @@ function Header() {
                             size: "icon",
                             className: "md:hidden",
                             onClick: ()=>setMobileMenuOpen(!mobileMenuOpen),
+                            "aria-label": "Toggle Menu",
                             children: mobileMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                 className: "h-6 w-6"
                             }, void 0, false, {
@@ -211,7 +201,7 @@ function Header() {
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 60,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     ]

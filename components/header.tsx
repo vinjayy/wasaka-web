@@ -19,11 +19,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto max-w-7xl px-6 lg:px-8">
-        <nav className="flex items-center justify-between h-16 lg:h-20">
-          
+        <nav className="flex items-center justify-between h-20 lg:h-24">
+
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-16 h-16">
+          <Link href="/" className="flex items-center gap-4">
+            {/* Bigger logo on mobile */}
+            <div className="relative w-16 h-16 sm:w-20 sm:h-20">
               <Image
                 src="/logowasaka2.jpeg"
                 alt="Logo Wasaka"
@@ -33,12 +34,10 @@ export function Header() {
               />
             </div>
 
-            <div className="hidden sm:block">
-              <div className="text-sm font-bold text-[#00456e] leading-tight">
-                PT. Wasaka
-              </div>
-              <div className="text-xs text-muted-foreground">
-                Cipta Energindo
+            {/* Bigger text on mobile */}
+            <div>
+              <div className="text-base sm:text-lg font-bold text-[#00456e] leading-tight">
+                PT. Wasaka Cipta Energindo
               </div>
             </div>
           </Link>
@@ -62,6 +61,7 @@ export function Header() {
             size="icon"
             className="md:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle Menu"
           >
             {mobileMenuOpen ? (
               <X className="h-6 w-6" />
