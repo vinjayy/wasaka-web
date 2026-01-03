@@ -19,8 +19,8 @@ export default function KontakPage() {
     },
     {
       icon: Phone,
-      title: "Telepon / WhatsApp",
-      content: ["0511-5213014", "+682310532025"],
+      title: "Telepon / WhatsApp / Email",
+      content: ["0511-5213014", "+682310532025", "marketing@wasakacipta.co.id"],
       link: "tel:05115213014",
     },
     {

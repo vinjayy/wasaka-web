@@ -1,22 +1,24 @@
-[00:00:02.658] Server  LOG      ✓ Ready in 2.1s
-[00:00:05.681] Server  LOG      ○ Compiling / ...
-[00:00:08.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.045] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:09.046] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:09.046] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767326024832}
-[00:00:28.325] Browser ERROR   ./components/footer.tsx:14:85
+[00:00:03.056] Server  LOG      ✓ Ready in 2.4s
+[00:00:06.119] Server  LOG      ○ Compiling / ...
+[00:00:09.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.782] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.782] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.782] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447815543}
+[00:00:25.710] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/tentang color: rgb(120, 120, 120) color: inherit {"dp":"/tentang","o":"http://localhost:3000/tentang","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447831481}
+[00:00:29.689] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/kontak color: rgb(120, 120, 120) color: inherit {"dp":"/kontak","o":"http://localhost:3000/kontak","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447835457}
+[00:00:46.085] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/tentang color: rgb(120, 120, 120) color: inherit {"dp":"/tentang","o":"http://localhost:3000/tentang","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447851853}
+[00:00:49.971] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447855734}
+[00:00:52.777] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/kontak color: rgb(120, 120, 120) color: inherit {"dp":"/kontak","o":"http://localhost:3000/kontak","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447858538}
+[00:02:43.457] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/layanan color: rgb(120, 120, 120) color: inherit {"dp":"/layanan","o":"http://localhost:3000/layanan","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447969221}
+[00:02:59.565] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/kontak color: rgb(120, 120, 120) color: inherit {"dp":"/kontak","o":"http://localhost:3000/kontak","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767447985328}
+[00:05:46.422] Browser ERROR   ./app/kontak/page.tsx:23:51
 Parsing ecmascript source code failed
-  12 |           <div className="space-y-4">
-  13 |             <div className="flex items-center gap-3>
-> 14 |               <div className="relative w-14 h-14 bg-white rounded-md overflow-hidden">
-     |                                                                                     ^^
-  15 |                 <Image
-  16 |                   src="/logowasaka2.jpeg"
-  17 |                   alt="Logo PT. Wasaka Cipta Energindo"
+  21 |       icon: Phone,
+  22 |       title: "Telepon / WhatsApp / Email",
+> 23 |       content: ["0511-5213014", "+682310532025" , "],
+     |                                                   ^^^
+  24 |       link: "tel:05115213014",
+  25 |     },
+  26 |     {
 
 Unterminated string constant
-
-Import trace:
-  Server Component:
-    ./components/footer.tsx
-    ./app/page.tsx

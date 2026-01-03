@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { MapPin, Phone } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
 
 export function Footer() {
   return (
@@ -57,6 +57,16 @@ export function Footer() {
                   className="text-sm text-gray-300 hover:text-white transition-colors"
                 >
                   0511-5213014
+                </a>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <Mail className="h-5 w-5 text-blue-400 flex-shrink-0" />
+                <a
+                  
+                  className="text-sm text-gray-300 hover:text-white transition-colors"
+                >
+                  marketing@wasakacipta.co.id
                 </a>
               </div>
             </div>

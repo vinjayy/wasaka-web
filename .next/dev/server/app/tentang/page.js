@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/tentang/page.js")
-R.c("server/chunks/ssr/node_modules_a6919c6f._.js")
+R.c("server/chunks/ssr/node_modules_fbcc96b7._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__24c104f1._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_3b4d20e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")

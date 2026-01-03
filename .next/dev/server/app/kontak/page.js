@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/kontak/page.js")
-R.c("server/chunks/ssr/node_modules_bf6ad279._.js")
+R.c("server/chunks/ssr/node_modules_1ec85a61._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__11bb31be._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_3b4d20e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
